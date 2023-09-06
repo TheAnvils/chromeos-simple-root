@@ -26,7 +26,7 @@ then
 fi
 echo "Making the root filesystem writable..."
 sleep 3
-/usr/share/vboot/bin/make_dev_ssd.sh --remove_rootfs_verification
+/usr/share/vboot/bin/make_dev_ssd.sh --remove_rootfs_verification --partitions 2
 
 echo "Downloading kernel..."
 sleep 1
